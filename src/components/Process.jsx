@@ -26,7 +26,7 @@ const OurApproach = () => {
       phase: "Execution",
       icon: <FaLaptop className="text-white" size={18} />,
       title: "Fieldwork & Data Collection",
-      description: "Seamless execution of data collection, whether it's through CATI, online surveys, or moderated in-person sessions, managed by our experienced field staff.",
+      description: "Seamless execution of data collection, whether it's through online surveys, or moderated in-person sessions, managed by our experienced field staff.",
       activities: ["Interviewing", "Survey Deployment", "Logistics Management"],
       color: "from-green-500 to-emerald-500"
     },

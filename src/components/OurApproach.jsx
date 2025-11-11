@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaCompass, FaUsers, FaChartLine } from 'react-icons/fa';
+import { FaCompass, FaUsers, FaChartLine,FaShieldAlt   } from 'react-icons/fa';
 
 const approachSteps = [
   {
@@ -16,11 +16,12 @@ const approachSteps = [
     color: 'from-teal-500 to-cyan-500'
   },
   {
-    icon: <FaChartLine size={32} />,
-    title: 'Analysis & Delivery',
-    description: 'From collating results to the final report, and everything in between, we manage the entire process to ensure a smooth and effective delivery of insights.',
+    icon: <FaShieldAlt   size={32} />,
+    title: 'Quality Control & Delivery',
+    description: 'We deliver raw data validated by our advanced AI-powered Quality Control system. This automated process meticulously checks all source files for integrity and accuracy, providing you with a reliable, clean dataset ready for immediate use.',
     color: 'from-sky-500 to-blue-500'
-  }
+  },
+  
 ];
 
 const OurApproach = () => {

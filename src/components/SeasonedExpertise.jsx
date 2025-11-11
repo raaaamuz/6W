@@ -22,7 +22,7 @@ const SeasonedExpertise = () => {
               className="font-serif text-3xl sm:text-4xl md:text-5xl font-extrabold text-gray-900 tracking-tight mb-6"
               style={{ lineHeight: 1.02 }}
             >
-              Seasoned Expertisesss
+              Seasoned Expertise
             </h2>
 
             <div
